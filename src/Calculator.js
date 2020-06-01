@@ -97,7 +97,7 @@ function Calculator() {
             </Button>
           </Col>
           <Col>
-            <Button variant="warning" onClick={() => handleOperations("/")}>
+            <Button variant="warning" onClick={() => handleOperations(SPLIT)}>
               /
             </Button>
           </Col>
@@ -120,7 +120,7 @@ function Calculator() {
             </Button>
           </Col>
           <Col>
-            <Button variant="warning" onClick={() => handleOperations("*")}>
+            <Button variant="warning" onClick={() => handleOperations(MULTIPLICATION)}>
               *
             </Button>
           </Col>
@@ -143,7 +143,7 @@ function Calculator() {
             </Button>
           </Col>
           <Col>
-            <Button variant="warning" onClick={() => handleOperations("-")}>
+            <Button variant="warning" onClick={() => handleOperations(SUBTRACTION)}>
               -
             </Button>
           </Col>
@@ -162,7 +162,7 @@ function Calculator() {
             <Button variant="success" onClick={handleCalc}>=</Button>
           </Col>
           <Col>
-            <Button variant="warning" onClick={() => handleOperations("+")}>
+            <Button variant="warning" onClick={() => handleOperations(SUM)}>
               +
             </Button>
           </Col>
